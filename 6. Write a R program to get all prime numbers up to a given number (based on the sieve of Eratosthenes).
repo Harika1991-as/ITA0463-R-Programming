@@ -1,4 +1,4 @@
-a=readline(prompt="Enter the range upto which you want the prime numbers")
+a=as.integer(readline(prompt="Enter the range upto which you want the prime numbers"))
 cat("The prime numbers from 1 to",a)
 for(i in 1:a)
 {
